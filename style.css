@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #eee;
+    position: relative;
+    height: 100vh;
+}
+.puzzle {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border: 1px solid;
+    width: 30em;
+    height: 50%;
+    padding: 3em 1em;
+    text-align: center;
+    background-color: #fff;
+}
+.puzzle h1 {
+    margin-bottom: 2em;
+}
+.puzzle__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.puzzle__form input {
+    
+}
